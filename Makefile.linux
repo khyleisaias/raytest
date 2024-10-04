@@ -1,0 +1,3 @@
+CC = tcc
+main: main.c
+	$(CC) main.c -o main -g -vv  -I/usr/local/include -L/usr/local/lib -lraylib -lm -lpthread
