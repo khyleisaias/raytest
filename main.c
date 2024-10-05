@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <raylib.h>
 
-#define WIDTH 1280
-#define HEIGHT 720
+#define WIDTH 800
+#define HEIGHT 600
 #define TSODING_BLACK (Color){18, 18, 18, 00}
 #define TOP_BG (Color){0x2E, 0x2E, 0x2F, 0xFF}
 int main()
@@ -40,8 +40,6 @@ int main()
 					DrawText("Main Menu", 110, 520, 25, WHITE);																								
 					DrawRectangle(40, 600, 64, 64, GRAY); // r6
 					DrawText("Main Menu", 110, 620, 25, WHITE);																								
-					DrawRectangle(40, 700, 64, 64, GRAY); // r7
-					DrawText("Main Menu", 110, 720, 25, WHITE);																								
 				}
 
 				{
