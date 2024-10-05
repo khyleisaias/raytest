@@ -7,7 +7,7 @@
 #define TOP_BG (Color){0x2E, 0x2E, 0x2F, 0xFF}
 int main()
 {
-    InitWindow(WIDTH, HEIGHT, "This is a test.");
+    InitWindow(WIDTH, HEIGHT, "This is a multiplatform test.");
     SetTargetFPS(120);
 	bool exitWindow = false;
     while (!exitWindow) {
